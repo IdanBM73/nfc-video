@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#000000">
   <title>Video</title>
-  <link rel="preload" href="video.mp4?v=2" as="video" type="video/mp4">
+  <link rel="preload" href="video.mp4?v=3" as="video" type="video/mp4">
   <style>
     html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
     video { position: fixed; inset: 0; width: 100%; height: 100%; object-fit: contain; background: #000; }
   </style>
 </head>
 <body>
-  <video src="video.mp4?v=2" autoplay muted loop playsinline preload="auto"></video>
+  <video src="video.mp4?v=3" autoplay muted loop playsinline preload="auto"></video>
   <script>
     // Retry play in case the browser delayed autoplay (e.g. low-power mode); a tap also starts it.
     const v = document.querySelector('video');
